@@ -30,23 +30,36 @@
 # print (f"the index of {30} is: {index}") 
 # print(my_list)
 
-def calculate_discount(price , discount_percentage):
-    if  discount_percentage >= 20:
-        discount_amount = (discount_percent / 100) * price
-        final_price = price - discount_amount
-        return final_price
-    else:
-            return price
+# def calculate_discount(price , discount_percentage):
+#     if  discount_percentage >= 20:
+#         discount_amount = (discount_percent / 100) * price
+#         final_price = price - discount_amount
+#         return final_price
+#     else:
+#             return price
 
- #prompt the user for input
+#  #prompt the user for input
 
-price = float(input("Enter the original price of the item: "))  
-discount_percent = float(input("Enter the discount percentage: ")) 
+# price = float(input("Enter the original price of the item: "))  
+# discount_percent = float(input("Enter the discount percentage: ")) 
 
-# call the calculate_discount function
+# # call the calculate_discount function
 
-final_price = calculate_discount(price , discount_percent)
+# final_price = calculate_discount(price , discount_percent)
 
-#print the final price
+# #print the final price
 
-print(f"The final price after applying the discount is : {final_price: ,2f }")
+# print(f"The final price after applying the discount is : {final_price: ,2f }")
+
+class Person: 
+    def __init__(self,name,age,gender):
+        self.name = loice
+        self.age = 28
+        self.gender = female
+        def introduce(self):
+            print (f"hi, my name is {self.name},i am {self.age} years old and i am {self.gender}.")
+
+            person_instance = Person("Loice", 28, "female")
+
+            #calling the introduce method 
+            person_instance.introduce()
